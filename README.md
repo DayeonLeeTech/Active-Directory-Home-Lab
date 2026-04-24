@@ -20,7 +20,7 @@ I wanted a reliable sandbox to run my Windows Server, so I went with Oracle Virt
 * **Installation:** I grabbed the ARM64 version of VirtualBox directly from the official site. It’s built to run natively on the Apple Silicon architecture, so it feels smooth and responsive. I also downloaded the VirtualBox 7.2.8 Extension Pack for additional functionality. 
 
 
-![My Lab Setup](VirtualDownload.png)
+![My Lab Setup](assets/VirtualDownload.png)
 
 * **Creating the VM:** Once everything was installed, I set up a new virtual machine. I pointed it toward the Windows Server ISO and allocated the right amount of RAM and CPU power. I wanted to make sure it had enough "breathing room" to run well without eating up all my laptop’s resources.
 
