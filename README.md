@@ -1,5 +1,8 @@
 
 # Active Directory Home Lab (Oracle VirtualBox)
+<p align="center">
+  <img src="assets/HomeLab.png" width="100%" alt="My Lab Setup" />
+</p>
 
 ### TL;DR
 Technologies Used
@@ -43,13 +46,11 @@ To ensure the isolated client machine could reach the web safely, the server was
 * NAT Configuration: Enabled Routing and Remote Access (RAS) on the server.
 * Internet Gateway: Configured Network Address Translation (NAT) so the Windows 10 client could access the internet through the Domain Controller’s external adapter.
 * Connectivity Verification: Confirmed the client workstation could reach external sites while remaining on the internal subnet.
-
 <p align="center">
   <img src="assets/InstallRAS/NAT.png" width="700" alt="NAT Configuration" />
 </p>
-<p align="center">
-  <img src="assets/NetworkConnectivityTest.png" width="700" alt="Connectivity Test" />
-</p>
+
+
 
 ### Stage 4: PowerShell Automation
 Instead of manual account creation, automation was used to simulate a large-scale employee onboarding process.
@@ -60,4 +61,23 @@ Instead of manual account creation, automation was used to simulate a large-scal
   <img src="assets/PowerShell.png" width="700" alt="PowerShell Automation" />
 </p>
 
----
+### Project Outcome 
+The Results
+
+The project successfully established a functional office network within a virtual environment. The client computer integrated with the server, received an automatic IP address, and maintained stable internet connectivity. Automation was used to instantly provision over 100 user accounts, ensuring the system was organized and ready for a corporate environment.
+
+Key skills
+* System Administration: Hands-on experience managing a central server and user database.
+* Networking: Configuring device connectivity and internal communication protocols.
+* Automation: Using scripts to complete high-volume, repetitive tasks with precision.
+* Troubleshooting: Diagnosing and resolving network and connectivity issues.
+
+
+
+
+
+
+
+
+
+
