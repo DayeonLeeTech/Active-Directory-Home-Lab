@@ -47,10 +47,12 @@ To ensure the isolated client machine could reach the web safely, the server was
 * Internet Gateway: Configured Network Address Translation (NAT) so the Windows 10 client could access the internet through the Domain Controller’s external adapter.
 * Connectivity Verification: Confirmed the client workstation could reach external sites while remaining on the internal subnet.
 <p align="center">
-  <img src="assets/InstallRAS/NAT.png" width="700" alt="NAT Configuration" />
+  <img src="assets/InstallRAS_NAT.png" width="700" alt="NAT Configuration" />
 </p>
 
-
+<p align="center">
+  <img src="assets/NetworkConnectivityTest.png" width="700" alt="Connectivity Test" />
+</p>
 
 ### Stage 4: PowerShell Automation
 Instead of manual account creation, automation was used to simulate a large-scale employee onboarding process.
